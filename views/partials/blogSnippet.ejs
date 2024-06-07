@@ -1,0 +1,7 @@
+<div class="blog-snippet">
+    <% for( let index = 0; index < blogs.length; index++ ) { %>
+        <h1><%=blogs[index].heading %></h1>
+        <h4><%= blogs[index].subtitle  %></h4>
+        <p><%= blogs[index].content %></p>
+    <% } %>
+</div>

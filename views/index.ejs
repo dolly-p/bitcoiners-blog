@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <%- include("partials/nav.ejs")  %>
+    <div class="heroText">
+        <h1 class="poppins-extrabold-italic">Welcome to the <span class="text">best</span> blog on <span class="text">Bitcoin</span> yet.</h1>
+        <p>Okay. Just kidding.😁</p>
+        <h4>This is the first fullstack project i will be building. It lets you view and upload blog pages. I didnt use a database, so the data you input are not persistent. Enjoy. <span id="extra">Arigato! 😈</span></h4>
+    </div>
+    <div class="blog-section">
+        <h1>Blog</h1>
+        <iframe src="/blogSnippet" frameborder="0" width="50%" height="500">Your browser doesn't support iframe</iframe>
+    </div>
+    <%- include("partials/footer.ejs")  %>
+</body>
+</html>
